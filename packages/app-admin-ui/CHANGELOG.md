@@ -1,5 +1,19 @@
 # @keystonejs/app-admin-ui
 
+## 6.0.0
+
+### Major Changes
+
+- [`9a94cee8`](https://github.com/keystonejs/keystone/commit/9a94cee8e59fdf7956d82887390dfb84bf6185fa) [#2869](https://github.com/keystonejs/keystone/pull/2869) Thanks [@timleslie](https://github.com/timleslie)! - Removed the method `AdminUIApp.getAdminMeta()` in favour of the more complete `AdminUIApp.getAdminUIMeta(keystone)`.
+
+### Patch Changes
+
+- [`d639624d`](https://github.com/keystonejs/keystone/commit/d639624db8615b52731af56fea0ae9c573ef38a1) [#2801](https://github.com/keystonejs/keystone/pull/2801) Thanks [@Vultraz](https://github.com/Vultraz)! - Converted ResizeHandler and ScrollQuery components to custom hooks.
+
+- Updated dependencies [[`da1359df`](https://github.com/keystonejs/keystone/commit/da1359dfc1bff7e27505eff876efe3a0865bae2d), [`60e2c7eb`](https://github.com/keystonejs/keystone/commit/60e2c7eb2298a016c68a19a056040a3b45beab2a)]:
+  - @keystonejs/session@7.0.0
+  - @keystonejs/fields@9.0.6
+
 ## 5.12.0
 
 ### Minor Changes
